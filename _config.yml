@@ -16,15 +16,15 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+ #   - text: Shop
+ #     url : /shop
     - text: Contact
       url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: 
+author_logo: profile.jpg
 author: Hoseop Lee
 author_bio: Hello! I am Hoseop.
 author_email: "ghtjq3909@naver.com"
