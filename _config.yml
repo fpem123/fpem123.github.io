@@ -1,9 +1,9 @@
 title: Hoseop's Github portfolio
-subtitle: A Portfolio Jekyll Theme Built for Developers
+subtitle: 노력하는 프로그래머 이호섭입니다. :D
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://fpem123.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -26,7 +26,7 @@ urls:
 
 author_logo: profile.jpg
 author: Hoseop Lee
-author_bio: Hello! I am Hoseop.
+author_bio: I am a programmer who wants to become a person who makes programs that users can enjoy. 😊
 author_email: "ghtjq3909@naver.com"
 author_location: South Korea
 author_website_url: "https://velog.io/@fpem123"
@@ -80,11 +80,11 @@ hyvor_talk_website_id: 476
 wakatime_username: fpem123
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: ghtjq3909@naver.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
