@@ -33,13 +33,13 @@ Python으로 만든 간단한 게시판 프로젝트입니다. Back end는 pytho
 
 ## DB 🏟
 
-<center><img src="../assets/img/projects/flask_board/flask_board_db.png" width="90%"></center>
+<center><img src="/assets/img/projects/flask_board/flask_board_db.png" width="90%"></center>
 
 DB는 5개의 Table로 심플하게 구성돼있습니다. User 테이블은 회원 정보 테이블, Article은 글 정보 테이블, Comment는 댓글 정보 테이블, Hit_history는 추천 정보 테이블, Image_files는 사진 정보 테이블입니다. 
 
 <br>
 
-<center><img src="../assets\img\projects\flask_board\flask_board_db_domain.png" width="80%"></center>
+<center><img src="/assets/img/projects/flask_board/flask_board_db_domain.png" width="80%"></center>
 
 Article_id FK들은 글이 없어지면 필요가 없는 필드가 되기 때문에 CASECADE로 설계하였고, User_id FK들은 유저가 사라져도 글과 댓글은 볼 수 있게 하고 싶어서 SET NULL로 설계해였습니다. 
 
@@ -70,7 +70,7 @@ Flask board에서 구현된 API들 중 일부입니다. 부랴부랴 만들어�
 
 <center>
 
-<img src="../assets\img\projects\flask_board\flask_board_hand.png" width="60%">
+<img src="/assets/img/projects/flask_board/flask_board_hand.png" width="60%">
 
 </center>
 
@@ -78,17 +78,17 @@ Flask board에서 구현된 API들 중 일부입니다. 부랴부랴 만들어�
 
 <br>
 
-<center><img src="../assets\img\projects\flask_board\flask_board_art.png" width="100%"></center>
+<center><img src="/assets/img/projects/flask_board/flask_board_art.png" width="100%"></center>
 
 그림을 기반으로 카카오의 OVEN을 이용해 프로토타입을 만들었습니다. [이곳](https://ovenapp.io/view/6xyc7AHTnkoAuw75yHj5af5yY7xJylTH/)에서 직접 시연해 보실 수 있습니다.
 
 <center>
 
-<img src="../assets\img\projects\flask_board\flask_board_home.png" width="80%">
+<img src="/assets/img/projects/flask_board\flask_board_home.png" width="80%">
 
-<img src="../assets\img\projects\flask_board\flask_board_board.png" width="80%">
+<img src="/assets/img/projects/flask_board/flask_board_board.png" width="80%">
 
-<img src="../assets\img\projects\flask_board\flask_board_article.png" width="80%">
+<img src="/assets/img/projects/flask_board/flask_board_article.png" width="80%">
 
 </center>
 
