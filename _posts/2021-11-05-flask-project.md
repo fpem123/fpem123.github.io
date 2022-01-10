@@ -13,8 +13,8 @@ permalink: "/blog/flask-board-project/"
 
 ## 프로젝트 사이트 링크 🌌
 
-### [Flask Board](http://hoseop.pythonanywhere.com/)
-### [Git repo](https://github.com/fpem123/flask_board)
+### [Flask Board](http://hoseop.pythonanywhere.com/){:target="_blank"}
+### [Git repo](https://github.com/fpem123/flask_board){:target="_blank"}
 
 <hr>
 
@@ -131,7 +131,7 @@ Flask board에서 구현된 API들 중 일부입니다. 부랴부랴 만들어�
 
 <center><img src="/assets/img/projects/flask_board/flask_board_art.png" width="100%"></center>
 
-그림을 기반으로 카카오의 OVEN을 이용해 프로토타입을 만들었습니다. [이곳](https://ovenapp.io/view/6xyc7AHTnkoAuw75yHj5af5yY7xJylTH/)에서 직접 시연해 보실 수 있습니다.
+그림을 기반으로 카카오의 OVEN을 이용해 프로토타입을 만들었습니다. <a href="https://ovenapp.io/view/6xyc7AHTnkoAuw75yHj5af5yY7xJylTH/" target="_blank">이곳</a>에서 직접 시연해 보실 수 있습니다.
 
 <center>
 
@@ -149,7 +149,7 @@ Flask board에서 구현된 API들 중 일부입니다. 부랴부랴 만들어�
 
 ## 호스팅 🥳
 
-릴리즈는 python 프로그램을 전문으로 호스팅 해주는 [PythonAnywhere](https://www.pythonanywhere.com/)란 사이트를 통해 호스팅 하였습니다. 호스팅 된 프로젝트의 링크는 [이곳](http://hoseop.pythonanywhere.com/)입니다. 사진 업로드는 pythonanywhere 무료 플랜의 제한된 용량과 관리의 용이함의 이유 (이용하는 분은 없지만 위험한 사진을 올리는 분이 나타날 수도 있기에😅)로 막아두었습니다.
+릴리즈는 python 프로그램을 전문으로 호스팅 해주는 <a href="https://www.pythonanywhere.com/" target="_blank">PythonAnywhere</a>란 사이트를 통해 호스팅 하였습니다. 호스팅 된 프로젝트의 링크는 <a href="http://hoseop.pythonanywhere.com/" target="_blank">이곳</a>입니다. 사진 업로드는 pythonanywhere 무료 플랜의 제한된 용량과 관리의 용이함의 이유 (이용하는 분은 없지만 위험한 사진을 올리는 분이 나타날 수도 있기에😅)로 막아두었습니다.
 
 <hr>
 
