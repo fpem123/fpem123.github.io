@@ -81,6 +81,7 @@ Project #1: 간단한 유튜브 워드클라우드 (<a href="https://master-word
 Project #5: GPT-2 SpongeBob script (<a href="https://master-gpt2-spongebob-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
 
 <br>
+<br>
 
 <img src="https://images.velog.io/images/fpem123/post/a9eb00ca-eda9-41fb-85b2-d7b790af33e6/image5.png" width="80%">
 <br>
@@ -88,13 +89,18 @@ Project #5: GPT-2 SpongeBob script (<a href="https://master-gpt2-spongebob-fpem1
 Project #6: GPT-2 Simpsons script (<a href="https://master-gpt2-simpsons-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
 
 <br>
+<br>
 
 <img src="https://images.velog.io/images/fpem123/post/19bbaf27-d9c3-45d4-8177-f4b4eb1a1b65/image1.png" width="80%">
 <br>
 
 Project #11: GPT-2 Futurama script (<a herf="https://master-gpt2-futurama-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
+
+<br>
+<br>
+
 </i>
-</center><br>
+</center>
 
   여러 데이터를 tuning을 하던 중, 이상한 점이 발견되었습니다. 모델이 가끔 결과를 이상하게 만들어내는 문제가 생겼습니다. 글 중간중간 개행이 많이 일어나는 등의 상황이 마구마구 나왔습니다. 회의를 진행해본 결과 문제는 전처리! NLP 관련 작업들은 전처리가 거의 필수로 필요하던 것이었습니다. 그런데 전처리를 하지 않았던 게 문제였습니다. 그래서 GPT-2의 데이터 전처리에 대해 조사해보았는데 보통의 NLP 작업들처럼 전처리하면 된다는 점을 알아내어, 전처리하여 다시 한번 GPT-2 모델을 tuning 하였습니다. 그리고 나오는 결과는 눈에 띄게 좋은 결과를 보여주었습니다!
 
