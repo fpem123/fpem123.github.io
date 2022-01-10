@@ -50,9 +50,11 @@ permalink: /blog/comcom-internship/
   저는 커먼컴퓨터의 인턴이자 Ainizer로서 Ainize 플랫폼을 사용해보고 다양한 프로젝트를 배포하는 것이 주 활동이었고, 특히 Ainize의 GPU를 사용할 수 있는 환경이라는 강점을 살려 머신 러닝 프로젝트를 주로 배포하였습니다. 그리고 작업을 위한 장비! 무려 Mac book을 지원받았습니다!!!
   처음엔 셀레니움을 활용한 워드 클라우드 앱을 배포했습니다. 셀레니움을 사용하기 위해선 크롬과 크롬 드라이버를 설치해야 하지만, Docker에 명령어 몇 줄이면 바로 해결! 성공적으로 배포했습니다. 🥳
 
-<center><img src="https://images.velog.io/images/fpem123/post/51433409-8d0d-4aa8-91b5-725a1a6e90a8/image9.png"  width="80%"></center>
+<center><img src="https://images.velog.io/images/fpem123/post/51433409-8d0d-4aa8-91b5-725a1a6e90a8/image9.png"  width="80%">
 
-<center>*Project #1: 간단한 유튜브 워드클라우드 ([link](https://master-word-cloud-fpem123.endpoint.ainize.ai/))*</center>
+*Project #1: 간단한 유튜브 워드클라우드 ([link](https://master-word-cloud-fpem123.endpoint.ainize.ai/))*
+
+</center>
 
 <br>
 
@@ -63,24 +65,32 @@ permalink: /blog/comcom-internship/
   하지만, 이런 고민들은 한 번에 싹 해결! 회사에서 무려 A100 GPU를 사용할 수 있는 서버를 지원해 주셨습니다! 그렇게 A100 서버에서 GPT-2 Large 모델을 다양한 데이터로 Fine-tuning 해보았습니다. 저는 주로 Script 데이터를 사용해서 tuning 했는데 생각보다 웃긴 결과들이 많이 나왔습니다. 🤣
 
 
-<center><img src="https://images.velog.io/images/fpem123/post/fde426cc-439e-467f-9859-0a956b09fcdf/image11.png" width="80%"></center>
+<center><img src="https://images.velog.io/images/fpem123/post/fde426cc-439e-467f-9859-0a956b09fcdf/image11.png" width="80%">
 
-<center>*Project #5: GPT-2 SpongeBob script ([link](https://master-gpt2-spongebob-fpem123.endpoint.ainize.ai/))*</center><br>
+*Project #5: GPT-2 SpongeBob script ([link](https://master-gpt2-spongebob-fpem123.endpoint.ainize.ai/))*
+
+</center><br>
 
 
-<center><img src="https://images.velog.io/images/fpem123/post/a9eb00ca-eda9-41fb-85b2-d7b790af33e6/image5.png" width="80%"></center>
+<center><img src="https://images.velog.io/images/fpem123/post/a9eb00ca-eda9-41fb-85b2-d7b790af33e6/image5.png" width="80%">
 
-<center>*Project #6: GPT-2 Simpsons script ([link](https://master-gpt2-simpsons-fpem123.endpoint.ainize.ai/))*</center><br>
+*Project #6: GPT-2 Simpsons script ([link](https://master-gpt2-simpsons-fpem123.endpoint.ainize.ai/))*
 
-<center><img src="https://images.velog.io/images/fpem123/post/19bbaf27-d9c3-45d4-8177-f4b4eb1a1b65/image1.png" width="80%"></center>
+</center><br>
 
-<center>*Project #11: GPT-2 Futurama script ([link](https://master-gpt2-futurama-fpem123.endpoint.ainize.ai/))*</center><br>
+<center><img src="https://images.velog.io/images/fpem123/post/19bbaf27-d9c3-45d4-8177-f4b4eb1a1b65/image1.png" width="80%">
+
+*Project #11: GPT-2 Futurama script ([link](https://master-gpt2-futurama-fpem123.endpoint.ainize.ai/))*
+
+</center><br>
 
   여러 데이터를 tuning을 하던 중, 이상한 점이 발견되었습니다. 모델이 가끔 결과를 이상하게 만들어내는 문제가 생겼습니다. 글 중간중간 개행이 많이 일어나는 등의 상황이 마구마구 나왔습니다. 회의를 진행해본 결과 문제는 전처리! NLP 관련 작업들은 전처리가 거의 필수로 필요하던 것이었습니다. 그런데 전처리를 하지 않았던 게 문제였습니다. 그래서 GPT-2의 데이터 전처리에 대해 조사해보았는데 보통의 NLP 작업들처럼 전처리하면 된다는 점을 알아내어, 전처리하여 다시 한번 GPT-2 모델을 tuning 하였습니다. 그리고 나오는 결과는 눈에 띄게 좋은 결과를 보여주었습니다!
 
-<center><img src="https://images.velog.io/images/fpem123/post/473afaf5-46c7-48f4-a8a4-1930f950a9f3/image7.png" width="80%"></center>
+<center><img src="https://images.velog.io/images/fpem123/post/473afaf5-46c7-48f4-a8a4-1930f950a9f3/image7.png" width="80%">
 
-<center>*Project #12: GPT-2 FairyTales ([link](https://master-gpt2-fairy-tales-fpem123.endpoint.ainize.ai/))*</center><br>
+*Project #12: GPT-2 FairyTales ([link](https://master-gpt2-fairy-tales-fpem123.endpoint.ainize.ai/))*
+
+</center><br>
 
   많은 모델을 만들어보고 Ainize에 업로드하다 보니 어느덧 2달의 짧은 인턴 기간이 끝나가게 되었습니다. 하지만 완전한 끝은 아닌 법, 인턴 마지막 날에는 디자인 스프린트가 하루 종일 진행되었습니다. 처음엔 어떻게 진행되는지 궁금하였는데, 막상 해보니 엄청 즐거운 활동이었습니다. 많은 직원분들과 함께 모여 회사 프로젝트가 나아가야 할 방향과 모두의 아이디어 공유와 디자인 구상을 하였던 뜻깊은 시간이었습니다.
   어느 식으로 진행되었냐면, 먼저 프로젝트에 내재된 문제점을 생각한 뒤, 어떤 문제에 집중할지 투표를 진행하였고 Crazy 8에 대한 설명을 들었습니다. Crazy 8은 문제점들에 대해 1분 만에 문제점에 대한 솔루션을 구상하고 종이에 간단한 스케치를 만드는 걸 8번 반복하는 방법이었습니다. 그리고 저는 “사용자들이 제품을 사용하기 이전, 제품을 파악하고 배우게 할 수 있을까?” 를 고민하는 그룹에 할당되었고, 발견한 문제점들 중에서 어떻게 하면 사용자들이 “머신러닝 관련 용어를 빠르게 이해하고 습득할지”와 “좋은 데이터가 왜 필요한가 알려주기”를 중점으로 작성해보았습니다.
