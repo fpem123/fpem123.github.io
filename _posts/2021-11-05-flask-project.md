@@ -40,6 +40,7 @@ DB는 5개의 Table로 심플하게 구성돼있습니다. User 테이블은 회
 <br>
 
 <center><img src="/assets/img/projects/flask_board/flask_board_db_domain.png" width="80%"></center>
+<br>
 
 Article_id FK들은 글이 없어지면 필요가 없는 필드가 되기 때문에 CASECADE로 설계하였고, User_id FK들은 유저가 사라져도 글과 댓글은 볼 수 있게 하고 싶어서 SET NULL로 설계해였습니다. 
 
@@ -48,16 +49,66 @@ Article_id FK들은 글이 없어지면 필요가 없는 필드가 되기 때문
 
 ## API 🚀
 
-|API 주소|요청|이름|설명|
-|--------|---|---|---|
-|/member/join/request|POST|회원 가입|사이트 회원가입을 위한 API. 보안을 위해 아이디와 비밀번호는 base64로 인코딩되어야 합니다.|
-|/member/login/request|POST|로그인|로그인을 위한 API. 보안을 위해 아이디와 비밀번호는 base64로 인코딩된 문자를 보냅니다.|
-|/member/logout/request|POST|로그아웃|로그아웃을 위한 API. 보안을 위해 아이디와 비밀번호는 base64로 인코딩된 문자를 보냅니다.|
-|/member/update/request|POST|회원 정보 수정|유저 정보 수정을 위한 API. 보안을 위해 아이디와 비밀번호는 base64로 인코딩되어야 합니다. new_pwd와 new_nickname은 비어있어도 되지만, 둘 중 하나 이상은 내용이 있어야 합니다.|
-|/member/delete/request|POST|회원 탈퇴|회원 탈퇴를 위한 API. 보안을 위해 아이디와 비밀번호는 base64로 인코딩되어야 합니다.|
-|/board/write_submit|POST|글 작성|글 작성을 위한 API. 글 작성 요청은 5초 안에 연속으로 할 수 없습니다.|
-|/article/get|GET|글 가져오기|글을 가져오는 API. aid에 해당하는 글을 가져옵니다.|
-|/board/update_submit|POST|글 수정|글을 수정하는 API. aid에 해당하는 글을 수정합니다.|
+<table>
+    <thead>
+    <tr>
+        <th scope="col">API 주소</th>
+        <th scope="col">요청</th>
+        <th scope="col">이름</th>
+        <th scope="col">설명</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>/member/join/request</td>
+        <td>POST</td>
+        <td>회원가입</td>
+        <td>사이트 회원가입을 위한 API.</td>
+    </tr>
+    <tr>
+        <td>/member/login/request</td>
+        <td>POST</td>
+        <td>로그인</td>
+        <td>로그인을 위한 API.</td>
+    </tr>
+    <tr>
+        <td>/member/logout/request</td>
+        <td>POST</td>
+        <td>로그아웃</td>
+        <td>로그아웃을 위한 API.</td>
+    </tr>
+    <tr>
+        <td>/member/update/request</td>
+        <td>POST</td>
+        <td>회원 정보 수정</td>
+        <td>회원 정보 수정을 위한 API.</td>
+    </tr>
+    <tr>
+        <td>/member/delete/request</td>
+        <td>POST</td>
+        <td>회원 탈퇴</td>
+        <td>회원 탈퇴를 위한 API.</td>
+    </tr>
+    <tr>
+        <td>/board/write_submit</td>
+        <td>POST</td>
+        <td>글 작성</td>
+        <td>글 작성을 위한 API. 글 작성 요청은 5초 안에 연속으로 할 수 없습니다.</td>
+    </tr>
+    <tr>
+        <td>/article/get</td>
+        <td>GET</td>
+        <td>글 가져오기</td>
+        <td>글을 가져오는 API. aid에 해당하는 글을 가져옵니다.</td>
+    </tr>
+    <tr>
+        <td>/board/update_submit</td>
+        <td>POST</td>
+        <td>글 수정</td>
+        <td>글을 수정하는 API.</td>
+    </tr>
+    </tbody>
+</table>
 
 <br>
 

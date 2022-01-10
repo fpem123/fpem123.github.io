@@ -59,7 +59,7 @@ Ainize 사이트의 모습
 <img src="https://images.velog.io/images/fpem123/post/51433409-8d0d-4aa8-91b5-725a1a6e90a8/image9.png"  width="80%">
 <br>
 
-Project #1: 간단한 유튜브 워드클라우드 ([link](https://master-word-cloud-fpem123.endpoint.ainize.ai/))
+Project #1: 간단한 유튜브 워드클라우드 (<a href="https://master-word-cloud-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
 
 </i>
 </center>
@@ -78,21 +78,21 @@ Project #1: 간단한 유튜브 워드클라우드 ([link](https://master-word-c
 <img src="https://images.velog.io/images/fpem123/post/fde426cc-439e-467f-9859-0a956b09fcdf/image11.png" width="80%">
 <br>
 
-Project #5: GPT-2 SpongeBob script ([link](https://master-gpt2-spongebob-fpem123.endpoint.ainize.ai/))
+Project #5: GPT-2 SpongeBob script (<a href="https://master-gpt2-spongebob-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
 
 <br>
 
 <img src="https://images.velog.io/images/fpem123/post/a9eb00ca-eda9-41fb-85b2-d7b790af33e6/image5.png" width="80%">
 <br>
 
-Project #6: GPT-2 Simpsons script ([link](https://master-gpt2-simpsons-fpem123.endpoint.ainize.ai/))
+Project #6: GPT-2 Simpsons script (<a href="https://master-gpt2-simpsons-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
 
 <br>
 
 <img src="https://images.velog.io/images/fpem123/post/19bbaf27-d9c3-45d4-8177-f4b4eb1a1b65/image1.png" width="80%">
 <br>
 
-Project #11: GPT-2 Futurama script ([link](https://master-gpt2-futurama-fpem123.endpoint.ainize.ai/))
+Project #11: GPT-2 Futurama script (<a herf="https://master-gpt2-futurama-fpem123.endpoint.ainize.ai/" target="_blank">link</a>)
 </i>
 </center><br>
 
@@ -103,7 +103,7 @@ Project #11: GPT-2 Futurama script ([link](https://master-gpt2-futurama-fpem123.
 <img src="https://images.velog.io/images/fpem123/post/473afaf5-46c7-48f4-a8a4-1930f950a9f3/image7.png" width="80%">
 <br>
 
-Project #12: GPT-2 FairyTales ([link](https://master-gpt2-fairy-tales-fpem123.endpoint.ainize.ai/))
+Project #12: GPT-2 FairyTales (<a href="https://master-gpt2-fairy-tales-fpem123.endpoint.ainize.ai/">link</a>)
 
 </i>
 </center><br>
