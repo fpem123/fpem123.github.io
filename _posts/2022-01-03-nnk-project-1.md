@@ -7,7 +7,7 @@ date: '2022-01-03 00:00:00'
 category: project
 keywords: project, java, web, Spring-boot
 usemathjax: true
-thumbnail: /assets/img/projects/nnkiosk/impact_map.png
+thumbnail: /assets/img/projects/nnkiosk/impact_maps.png
 permalink: /blog/kiosk-project-1/
 ---
 
@@ -56,7 +56,7 @@ permalink: /blog/kiosk-project-1/
 
 ## Impact map 🗺
 
-<center><img src="/assets/img/projects/nnkiosk/impact_map.png" width="90%"></center>
+<center><img src="/assets/img/projects/nnkiosk/impact_maps.png" width="90%"></center>
 
 <br>
 
