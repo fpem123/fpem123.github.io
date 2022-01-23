@@ -7,7 +7,7 @@ date: '2021-06-01 00:00:00'
 category: experience
 keywords: experience, internship, common computer
 usemathjax: true
-thumbnail: /assets/img/projects/comcom_intern/image10.png
+thumbnail: /assets/img/projects/comcom_intern/image8.png
 permalink: /blog/comcom-internship-works/
 ---
 
