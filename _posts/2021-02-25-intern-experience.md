@@ -1,7 +1,7 @@
 ---
 title: Common computer 2020 winter internship
 layout: post
-summary: 2020년 겨울 커먼컴퓨터 인턴
+summary: 2020년 겨울 커먼컴퓨터 인턴 2개월 후기
 author: fpem123
 date: '2021-03-22 00:00:00'
 category: experience
