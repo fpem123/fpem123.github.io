@@ -8,7 +8,7 @@ category: project
 keywords: project, java, web, Spring-boot
 usemathjax: true
 thumbnail: /assets/img/projects/nnkiosk/impact_maps.png
-permalink: /blog/kiosk-project-2/
+permalink: /blog/kiosk-project-1/
 ---
 
 ## 프로젝트 사이트 링크 🌌
