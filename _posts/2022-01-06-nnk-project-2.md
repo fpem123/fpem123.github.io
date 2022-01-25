@@ -7,7 +7,7 @@ date: '2022-01-06 00:00:00'
 category: project
 keywords: project, java, web, Spring-boot
 usemathjax: true
-thumbnail: /assets/img/projects/nnkiosk/impact_maps.png
+thumbnail: /assets/img/projects/nnkiosk/uml.png
 permalink: /blog/kiosk-project-1/
 ---
 
@@ -31,6 +31,8 @@ permalink: /blog/kiosk-project-1/
 
 <center><img src="/assets/img/projects/nnkiosk/uml.png" width="90%"></center>
 
+<br>
+
 손님과 주인 Actors들이 사용하는 NNK의 UML입니다. 제가 생각하는 키오스크의 기능들은 이 정도인 것 같습니다.
 
 <br>
@@ -43,6 +45,7 @@ permalink: /blog/kiosk-project-1/
 <center><img src="/assets/img/projects/nnkiosk/usecase2.png" width="90%"></center>
 
 <br>
+
 손님 actor가 키오스크를 사용하는 usecase와 주인 actor가 키오스크를 관리하는 usecase를 작성해보았습니다.
 
 <br>
@@ -65,7 +68,7 @@ NNK 프로젝트에 사용할 DB와 설명입니다. 관계형 데이터베이�
 
 <center><img src="/assets/img/projects/nnkiosk/api.png" width="90%"></center>
 <br>
-<center><img src="/assets/img/projects/nnkiosk/api_info.png" width="90%"></center>
+<center><img src="/assets/img/projects/nnkiosk/api_return.png" width="90%"></center>
 
 <br>
 
